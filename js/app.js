@@ -1,3 +1,16 @@
+/*
+ * This file contains the functionality specific to our game
+ *
+ * Two classes are defined in here:
+ *
+ * An enemy, which is depicted as bugs on the screen, running
+ * from left to right, and which our player must avoid
+ *
+ * Our player, the hero of the story, who starts at the bottom
+ * of the screen and must find his way up to the water, without
+ * hitting any bugs
+ */
+
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
 	// Variables applied to each of our instances go here,

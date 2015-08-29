@@ -99,6 +99,8 @@ var Engine = (function(global) {
 
 	/*
 	 * Check collisions between player and all enemies
+	 * when a collision occurs, the player is sent back
+	 * to the starting position
 	 */
 	function checkCollisions() {
 		allEnemies.forEach(function(enemy) {
